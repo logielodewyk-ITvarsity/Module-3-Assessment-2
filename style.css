@@ -1,0 +1,236 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: sans-serif;
+
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+}
+
+.body-home{
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*==========HOME PAGE==========*/
+
+#home-logo-img{
+    width:180px;
+    display: block;
+    margin:auto;
+    padding: 20px 30px 30px 30px;
+}
+
+#home-logo-text{
+    width: auto;
+    display: block;
+    margin:auto;
+    padding: 25px;
+}
+/*=====HOME PAGE MENU======*/
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid white;
+
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width:80%;
+}
+
+/*==========MEALS PAGE==========*/
+#meals{
+    padding-top: 50px;
+}
+
+/*=====MEALS PAGE MENU======*/
+
+.meals-list a {
+text-decoration: none;
+}
+.meals-list-item{
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+.meals-list-item h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+.meals-list-item i {
+    float: right;
+    color: #1a1a1a;
+    padding-right: 10px;
+}
+
+.meals-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: #4d4d4d;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+/*==========RECIPE PAGE==========*/
+
+#recipe{
+    padding-top: 50px;
+    
+}
+
+/*=====RECIPE DETAILS======*/
+
+.recipe-details img{
+    width: 30%;
+    padding-bottom:20px;
+}
+.recipe-details h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 1px;
+}
+.recipe-details h2{
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 25px;
+}
+.recipe-details-info{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.recipe-details-info p{
+    font-size: 13px;
+    display: inline-block;
+    color: black;
+
+}
+.recipe-details-ingredients label{
+    line-height:25px;
+    margin-left:10px;
+}
+.recipe-details-steps{
+    padding-top:20px;
+    padding-bottom: 20px;
+    color: black;
+}
+.recipe-details-steps li{
+    padding-left:28px
+}
+
+.body-recipes{
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.salad-details img{
+    width: 20%;
+    height:30%;
+    padding-bottom:20px;
+}
+.salad-details h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 1px;
+}
+.salad-details h2{
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 25px;
+}
+.salad-details-info{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+textarea{
+    width: 100%;
+    height :65px;
+    margin : 12px 0;
+    border : 1px solid #929292;
+}
+
+
+input{
+    width: 100%;
+    height: 25px;
+    margin : 12px 0;
+    border : 1px solid #929292;
+}
+
+
+
+.button{
+    display : block;
+    width: 100%;
+    background-color: darkgray;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 8px 0;  
+}
+
+/*=================== INFO BOX =====================*/
+
+#info-box-full{
+    background-color : rgba(255, 255, 255, .8);
+    width   : 70%;
+    display : block;
+    margin  : auto;
+    margin-top : 12px;
+    padding    : 10px;
+}
+
+#info-box-full h3{
+    text-align : center;
+}
+
+/*============ TOP-TABS ============*/
+#tabs-top{
+    position: fixed;
+    top     : 0.8px;
+    left    : 0;
+    z-index : 500;
+    width   : 100%;
+    height  : 40px;
+    background-color:darkcyan;
+}
+
+#tabs-top a{
+    float   : left;
+    display : block;
+    width   : 33%;
+    height  :35px;
+    font-weight : 700;
+    color       : white;
+    text-align  : center;
+    text-decoration : none;
+    padding-top     : 12px;  
+}
